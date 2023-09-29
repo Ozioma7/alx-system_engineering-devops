@@ -2,7 +2,7 @@
 # Displays Best School with hi after the 9th time
 
 i=0
-while [ "$i" -le 9 ]
+while [ "$i" < 10 ]
 do
 	if [ "$i" -eq 8 ]
 		echo "Best School"
@@ -10,5 +10,4 @@ do
 	else
 		echo "Best School"
 	fi
-	i=$[i+1]
 done
