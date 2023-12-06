@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# Configuring an NGINX server to nlisten to port 80
+
+
+# Creating a symbolic link between the NGINX configuration file
+# and the enabled sites directory
+ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+
+# Restarting NGINX
+service nginx restart
+
+# Terminating the first NGINX process ID
+kill "$(pgrep 'nginx' | head -1)"
