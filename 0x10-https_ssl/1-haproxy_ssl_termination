@@ -41,7 +41,7 @@ frontend http_front
         default_backend http_back
 
 frontend https_front
-        bind *:443 ssl crt /etc/haproxy/certs/clickviral.tech.pem
+        bind *:443 ssl crt /etc/haproxy/certs/ozymic.tech.pem
         http-request set-header X-Forwarded-Proto https
         default_backend http_back
 
