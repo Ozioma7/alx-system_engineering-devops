@@ -1,0 +1,26 @@
+What Happens When You Type google.com in Your Browser and Press Enter
+You are obviously looking for something when you type something and hit enter in your browser.
+Though the answer comes out almost immediately but it went through a whole lot of processes or let
+me say stages to give you what you see displayed on your screen. All that I am saying is that several
+steps are taken to fetch and display the website. Here's a simplified breakdown of the process, covering
+the elements you mentioned:
+DNS Request
+Your browser initiates a Domain Name System (DNS) request to convert the human-readable domain name example "google.com" into an IP address example “54.77.98.99”. The request is sent to a DNS resolver, which may be provided by your internet service provider (ISP) or a third-party DNS service.
+TCP/IP
+Once the IP address is obtained, a Transmission Control Protocol (TCP) connection is established between your computer and the server hosting the Google website. This is like the messenger. Internet Protocol (IP) is used for routing data packets between your computer and the server.
+Firewall
+Your request passes through your local firewall, which is a security measure designed to monitor and control incoming and outgoing network traffic. This helps to man the gate of your browser or application as it monitors, filters, and block HTTP traffic to and fro. If the firewall permits the request, the data packets continue to the next step.
+HTTPS/SSL
+ A secure connection is established using HTTPS (Hypertext Transfer Protocol Secure) to encrypt the data exchanged between your browser and the server. That means it helps protect sensitive information such as login credentials, personal data, and financial transactions.
+Load-Balancer
+ This is the division of labour unit in the browser when present, so your request may be directed to one of several servers. Load balancers distribute incoming network traffic across multiple servers to ensure no single server is overwhelmed. This prevents that frustrating downtime.
+Web Server
+The request reaches one of Google's web servers. Web servers handle HTTP requests, serving static content (like HTML, CSS, and images) and, in some cases, handling initial processing of dynamic content.
+Application Server
+For dynamic content or interactive features, the request may be passed to an application server. This server executes code to generate content based on user interactions or other dynamic factors.
+Database
+This is where information that you are looking for are stored and are thereby retrieved at the point of the search. Simply put the application server interacts with a database server to retrieve the necessary information.
+Response
+The server compiles the requested content and sends it back to your browser over the secure connection. Your browser receives the response, decrypts it (if encrypted), and renders the webpage for you to view.
+Throughout this process, each layer plays a crucial role in ensuring the secure and efficient transfer of data between your browser and Google's servers.
+
