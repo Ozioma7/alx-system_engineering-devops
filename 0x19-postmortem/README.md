@@ -36,10 +36,7 @@ TASK 0: My first postmortem
 By addressing these corrective and preventative measures, we aim to strengthen the resilience of our infrastructure and minimize the likelihood of similar incidents occurring in the future.
 
 TASK 1: MAKE PEOPLE WANT TO READ YOUR POSTMORTEM
-Certainly! Adding humor and visual elements can make your postmortem more engaging and memorable. Here's a fun and attention-grabbing approach:
 
-
-![Website Breakdown Adventure](https://example.com/website_breakdown_adventure.png)
 
 **Website Breakdown Adventure: A Postmortem Tale**
 
