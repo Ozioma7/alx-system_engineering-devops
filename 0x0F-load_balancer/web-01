@@ -5,7 +5,7 @@
 eval $("ssh-agent")
 
 # Path to IdentityFile
-ssh-add ~/root/.ssh/school
+ssh-add ~/home/ozioma/.ssh/school
 
 # Username and IP Address
 ssh ubuntu@54.227.198.98
